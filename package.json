@@ -1,0 +1,39 @@
+{
+  "name": "em-llm-backend",
+  "version": "1.0.0",
+  "description": "EMR RAG AI Assistant",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadanis2007/em-llm-backend.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "MS",
+    "SQL",
+    "Server",
+    "expressjs",
+    "and",
+    "jwt."
+  ],
+  "author": "Muhammad Anees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadanis2007/em-llm-backend/issues"
+  },
+  "homepage": "https://github.com/muhammadanis2007/em-llm-backend#readme",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^12.0.0",
+    "openai": "^6.1.0"
+  }
+}
